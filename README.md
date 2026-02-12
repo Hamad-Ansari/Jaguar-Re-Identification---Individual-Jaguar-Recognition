@@ -5,7 +5,8 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Open In Kaggle](https://img.shields.io/badge/Open%20In-Kaggle-20BEFF.svg)](https://kaggle.com/your-username)
 [![Open In Colab](https://img.shields.io/badge/Open%20In-Colab-F9AB00.svg)](https://colab.research.google.com/github/your-username/jaguar-reid/blob/main/notebook/jaguar_reid_solution.ipynb)
-![Uploading a_A_cinematic,_photore.png…]()
+<img width="1440" height="1440" alt="a_A_cinematic,_photore" src="https://github.com/user-attachments/assets/3216e7e6-0fb9-412c-a4b5-3f97f1306ab8" />
+
 
 ---
 
