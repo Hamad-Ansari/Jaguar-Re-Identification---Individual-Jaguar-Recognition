@@ -5,12 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Open In Kaggle](https://img.shields.io/badge/Open%20In-Kaggle-20BEFF.svg)](https://kaggle.com/your-username)
 [![Open In Colab](https://img.shields.io/badge/Open%20In-Colab-F9AB00.svg)](https://colab.research.google.com/github/your-username/jaguar-reid/blob/main/notebook/jaguar_reid_solution.ipynb)
-
-<div align="center">
-  <img src="assets/jaguar_logo.png" width="400" alt="Jaguar Re-ID Banner"/>
-  <h3>Deep Learning Solution for Individual Jaguar Identification</h3>
-  <p><em>State-of-the-art metric learning approach for wildlife conservation</em></p>
-</div>
+![Uploading a_A_cinematic,_photore.png…]()
 
 ---
 
@@ -79,6 +74,7 @@ python src/inference.py --checkpoint outputs/best_model_fold0.pth
 <div align="center"> <table> <tr> <td><img src="assets/class_distribution.png" width="400"/><br/><b>Class Distribution</b></td> <td><img src="assets/embeddings_tsne.png" width="400"/><br/><b>t-SNE Embeddings</b></td> </tr> <tr> <td><img src="assets/augmentation_samples.png" width="400"/><br/><b>Data Augmentation</b></td> <td><img src="assets/sample_matches.png" width="400"/><br/><b>Top Matching Pairs</b></td> </tr> </table> </div>
 
 ## 🏗️ Architecture
+```
 Input Image (384x384)
         ↓
   [EfficientNet-B4] ← Pretrained on ImageNet
@@ -94,11 +90,12 @@ Input Image (384x384)
    └─────────────┘
         ↓
    Classification (31 classes)
+```
 ## Loss Function
 ArcFace: L = -log(exp(s·cos(θ_y + m)) / (exp(s·cos(θ_y + m)) + Σ_{j≠y} exp(s·cos θ_j)))
 
 Focal Loss: FL(p_t) = -α_t(1-p_t)^γ log(p_t)
-<div align="center"> <b>If you find this project useful, please ⭐ star it on GitHub!</b> </div> ```
+
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)](https://pytorch.org)
